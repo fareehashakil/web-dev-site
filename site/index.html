@@ -4,21 +4,169 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>Bootstrap Starter Page</title>
+	<!-- <title>Bootstrap Starter Page</title> -->
+	<title>Fashion & The City</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lora" rel="stylesheet">
 </head>
 
 <body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html" class="pull-left visible-md visible-lg">
+						<div id="logo-img" alt="Logo image"></div>
+					</a>
 
-	<h1>Hello !!</h1>
+					<div class="navbar-brand">
+						<a href="index.html"><h1> Fashion & The City</h1></a>
+						<p>
+							<img src="img/logo.png" alt="Trusted Brand">
+							<span>Trusted Brand</span>
+						</p>
+					</div>
+					<!-- navbar-brand class ends -->
 
-	<script src="js/jquery-3.5.0.min.js"></script>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div> 
+				<!-- navbar-header class ends-->
+
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="index.html">
+								<span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home </a>
+						</li>
+						<li>
+							<a href="categories.html">
+								<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Categories </a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About </a>
+						</li>
+						
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> Register </a>
+						</li>
+
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> Order</a>
+						</li>
+						<!-- <li id="phone" class="hidden-xs">
+							<a href="Ph:0346-2779017">
+								<span> 0346-2779017 </span></a><div>We Deliver</div>
+						</li> -->
+					</ul>
+				</div>
+				<!-- collapsable-nav ends -->
+			</div>
+			<!-- Container class ends -->
+		</nav>
+	</header>
+	<!-- Header ends -->
+
+	<div id="call-btn" class="visible-xs">
+		<a class="btn" href="tel:410-602-5008">
+			<span class="glyphicon glyphicon-earphone"></span>
+			0346-2779017
+		</a>
+	</div>
+	<div id="xs-deliver" class="text-center visible-xs"> We Deliver</div>
+
+	<div id="main-content" class="container">
+		<div class="jumbotron">
+			<img src="img/FATC.jpg" alt="Picture of Company" class="img-responsive visible-xs">
+		</div>
+
+		<div id="home-tiles" class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="sale-categories.html">
+					<div id="item-tile"><span>sale</span></div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="single-category.html">
+					<div id="special-tile"><span>special offer</span></div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<!-- Target for open in separate tab -->
+				<a href="https://goo.gl/maps/3MLrTJGurgP2kkrr9" target="_blank">
+					<div id="map-tile">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14484.695765555787!2d67.0357528!3d24.8237245!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb5ceaeb2dfe297eb!2sOcean%20Mall!5e0!3m2!1sen!2s!4v1586856442513!5m2!1sen!2s" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						<span>map</span>
+					</div>
+				</a> 
+			</div> 
+			<!-- home-tiles class ends -->
+		</div>
+		<!-- main-content class ends -->
+	</div>
+
+
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<section id="hours" class="col-sm-4">
+					<span>Contact Us:</span><br>
+					facebook/fashionandthecity<br>
+					instagram/fashionandthecity<br>
+					<hr class="visible-xs">
+				</section>
+				<section id="address" class="col-sm-4">
+					<span>Address:</span><br>
+					Ocean Mall<br>
+					Teen Talwar Road, Karachi<br>
+					<p>* Delivery within 3-4 days.<br> 
+					Delivery charges applies.</p>
+					<hr class="visible-xs">
+				</section>
+				<section id="testimonials" class="col-sm-4">
+					<p>"Fashion & The City - The best Fashion brand in the whole Asia." <br>
+					Quality Products! Great Service!</p>
+				</section>
+			</div>
+			<div class="text-center">&copy; Copyright Fashion & The City 2020 | Admin</div>
+		</div>
+	</footer>
+	<!-- Footer class ends -->
+
+	<!-- Bootstrap
+	<div class="continer-fluid">
+		<div class="row">
+			<div class="col-md-4 col-sm-6">Col 1</div>
+			<div class="col-md-4 col-sm-6">Col 2</div>
+			<div class="col-md-4 col-sm-6">Col 3</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-sm-6">Col 1</div>
+			<div class="col-md-4 col-sm-6">Col 2</div>
+			<div class="col-md-4 col-sm-6">Col 3</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-6">Col 1</div>
+			<div class="col-xs-6">Col 2</div>
+			<div class="col-xs-6">Col 3</div>
+		</div>
+	</div> -->
+
+	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
-<h1> Hello !! Welcome back once again !!</h1>
 </body>
 </html>
