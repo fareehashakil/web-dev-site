@@ -48,7 +48,7 @@ body {
 	border: 1px solid #f0c0b6;
 	margin-top: -55px;
 }
-.menu-tile {
+.container #menu-tile {
 	position: relative;
 	border: 2px solid #e6b7ad;
 	overflow: hidden;
@@ -58,9 +58,6 @@ body {
 	color: #951C49;
 	background: #f0c0b6;
 	font-size: .9em;
-}
-.menu-title {
-	text-align: center;
 }
 
 /*Large Devices*/
@@ -102,7 +99,7 @@ body {
 #collapsable-nav a {
 	font-size: 1.2em;
 }
-.menu-tile {
+.container #menu-tile {
 	margin: 35px 0 0;
 }
 }
