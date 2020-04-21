@@ -1,0 +1,116 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #ff9899;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+	background-color: #000;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #ffffff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 5px 2px 5px #f58a94;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #e6b7ad;
+	text-align: center;
+}
+.active, #nav-list a:hover {
+	color: #951C49;
+	background: #f0c0b6;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #f0c0b6;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	border: 1px solid #f0c0b6;
+	margin-top: -55px;
+}
+.menu-tile {
+	position: relative;
+	border: 2px solid #e6b7ad;
+	overflow: hidden;
+	max-height: 2000px;
+	margin-top: 25px;
+	margin: 25px auto 0;
+	color: #951C49;
+	background: #f0c0b6;
+	font-size: .9em;
+}
+.menu-title {
+	text-align: center;
+}
+
+/*Large Devices*/
+@media (min-width: 1200px) {
+.navbar-header {
+	padding-bottom: 25px;
+}
+}
+
+/*Medium Devices*/
+@media (min-width: 992px) and (max-width: 1199px) {
+.navbar-header {
+	padding-bottom: 25px;
+}
+}
+
+/*Small Devices*/
+@media (min-width: 768px) and (max-width: 991px) {
+.navbar-header {
+	padding-bottom: 25px;
+}
+}
+
+/*Extra Small Devices*/
+@media (max-width: 767px) {
+.navbar-header {
+	padding-bottom: -25px;
+}
+.navbar-brand {
+	padding-top: 10px;
+	height: 80px;
+}
+.navbar-brand h1 {
+	font-size: 5vw; /* 1 vw = 1% of viewport width*/
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+#collapsable-nav a {
+	font-size: 1.2em;
+}
+.menu-tile {
+	margin: 35px 0 0;
+}
+}
+
+/*Super Small Device (iPhone 4)*/
+@media (max-width: 479px) {
+	.navbar-brand h1 {
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+}
