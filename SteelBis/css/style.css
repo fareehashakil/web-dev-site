@@ -74,7 +74,7 @@ body {
 	font-size: 1.5em;
 
 }
-.news-item-title {
+.news-item-title, .related-post-heading {
 	background-color: #32CD32;
 	color: #ffffff;
 	text-align: left;
@@ -93,12 +93,37 @@ body {
 	margin: 10px 15px 0 0;
 }
 
+.other-item-tile {
+	margin-left: 30px;
+}
+
 .rss1, .rss2, .rss3 {
+	width: 100%;
 	margin-bottom: 10px;
 }
 
+#related-post {
+	margin-left: 20px;
+	margin-right: 10px;
+	background-color: #DCDCDC;
+}
 
+.related-post-heading {
+	background-color: #32CD32;
+	color: #ffffff;
+	text-align: left;
+	padding: 10px;
+}
 
+.post-img1, .post-img2, .post-img3, .post-img4 {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.post-headline1, .post-headline2, .post-headline3, .post-headline4{
+	text-align: left;
+	overflow: hidden;
+}
 /*tiles-news page ends*/
 
 /*Footer starts*/
@@ -137,8 +162,8 @@ body {
 /*Header Logo*/
 #logo-img {
 	background: url('../img/Steelbis_Logo_with_slogan.png') no-repeat;
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 	margin: 5px 5px 5px 0;
 }
 /*header ends*/
@@ -149,7 +174,7 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
 	#logo-img {
 	background: url('../img/Steelbis_Logo_with_slogan.png') no-repeat;
-	width: 150px;
+	width: 200px;
 	height: 150px;
 	margin: 5px 5px 5px 0;
 }
@@ -169,7 +194,7 @@ body {
 
 /*Tile-home page starts*/
 .news-page-heading #image {
-	width: 80%;
+	width: 100%;
 	margin: 10px 15px 0 0;
 }
 /*Tile-home page ends*/
