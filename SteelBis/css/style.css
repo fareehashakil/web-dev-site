@@ -1,0 +1,197 @@
+body {
+	font-size: 16px;
+	color: #000000;
+	background-color: #fffff;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/*header starts*/
+#header-nav {
+	background-color: #000;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	background: url('../img/Steelbis_Logo_with_slogan.png') no-repeat;
+	width: 200px;
+	height: 200px;
+	margin: 0 15px 0 0;
+}
+#navigation{
+	margin-top: -20px;
+	background-color: #000;
+}
+
+
+#nav-list {
+	margin-top: -20px;
+}
+#nav-list a {
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#nav-list a:hover {
+	color: #32CD32;
+	background-color: #000;
+
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #ffffff;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	border: 1px solid #ffffff;
+	margin-top: -50px;
+}
+/*Header ends*/
+
+
+/*tiles-news page starts*/
+.item-tile {
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+.item-tile .news-item-tile {
+	margin-left: 20px;
+	margin-right: 10px; 
+}
+.item-tile .news-page-heading .heading{
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 1.1em;
+	float: left;
+	font-weight: bold;
+}
+.item-tile .news-page-heading .code{
+	background-color: #32CD32;
+	color: #ffffff;
+	padding-right: 40px;
+	float: right;
+	font-size: 1.1em;
+
+}
+.news-item-title {
+	background-color: #32CD32;
+	color: #ffffff;
+	text-align: left;
+	padding: 10px;
+}
+
+.news-item-details {
+	background-color: #DCDCDC;
+	font-size: 0.9em;
+	margin-top: -10px;
+	padding: 10px;
+}
+.news-page-heading #image {
+	margin: 10px 15px 0 0;
+}
+
+
+
+/*tiles-news page ends*/
+
+/*Footer starts*/
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+}
+.panel-footer div.row {
+	margin-bottom: 35px;
+}
+#newsletter, #company, #address{
+	line-height: 2;
+	color: #ffffff;
+	font-size: 0.9em;
+
+}
+#Copyright {
+	color: #ffffff;
+}
+
+#disclaimer {
+	color: #ffffff;
+	font-size: 0.7em;
+}
+/*Footer ends*/
+
+/*Large Devices*/
+@media (min-width: 1200px) {
+}
+
+/*Medium Devices*/
+@media (min-width: 992px) and (max-width: 1199px) {
+/*Header Logo*/
+#logo-img {
+	background: url('../img/Steelbis_Logo_with_slogan.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 5px 5px 5px 0;
+}
+/*header ends*/
+
+}
+
+/*Small Devices*/
+@media (min-width: 768px) and (max-width: 991px) {
+	#logo-img {
+	background: url('../img/Steelbis_Logo_with_slogan.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 5px 5px 5px 0;
+}
+}
+
+/*Extra Small Devices*/
+@media (max-width: 767px) {
+/*header starts*/	
+#collapsable-nav a {
+	font-size: 1.2em;
+}
+#collapsable-nav a span{
+	font-size: 1em;
+	margin-right: 5px;
+}
+/*header ends*/
+
+/*Tile-home page starts*/
+.news-page-heading #image {
+	width: 80%;
+	margin: 10px 15px 0 0;
+}
+/*Tile-home page ends*/
+
+/*Footer starts*/
+.panel-footer section {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.panel-footer section:nth-child(3) {
+	margin-bottom: 0;
+}
+.panel-footer section hr {
+	width: 50%;
+}
+/*Footer ends*/
+}
+
+/*Super Small Device (iPhone 4)*/
+@media (max-width: 479px) {
+/*header starts*/
+/*header starts*/
+
+/*tile-home page starts*/
+/*tile-home page ends*/
+
+}
