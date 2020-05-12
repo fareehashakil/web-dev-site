@@ -74,7 +74,7 @@ body {
 	font-size: 1.5em;
 
 }
-.news-item-title, .related-post-heading {
+.news-item-title {
 	background-color: #32CD32;
 	color: #ffffff;
 	text-align: left;
